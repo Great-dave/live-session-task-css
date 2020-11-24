@@ -1,57 +1,78 @@
 * {
- padding: 0;
  margin: 0;
- }
+ padding: 0;
+}
 
- body {
-background-color: rgb(58, 212, 130);
- }
+body {
+ background-color: #85B592;
+}
 
-header {
- color: #b2d8b7;
- font-size: 20px;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+header h1 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bolder;
  text-align: center;
- background-color: #10651B;
+ color: #bae686;
+ background-color: #3B6838;
  padding: 20px;
- height: 20%;
 }
 
-table {
- border-collapse: collapse;
- margin-left: 25%;
- background-color: #10651B;
- color: #b2d8b7;
- width: 58%;
- padding-bottom: 20px;
- letter-spacing: 1px;
- }
-
-article{
- border: #10651B;
- padding-top: 10px;
-background-color: rgb(79, 185, 125);
-margin-top: 2%;
- color: blue;
+nav ul {
+ color: white;
+ font-size: 15px;
+ background-color: rgb(98, 124, 88);
+ display: grid;
+ grid-template-rows: 1;
+ grid-template-columns: 20% 20% 20% 20% 20%;
+ list-style: none;
 }
 
+nav ul li {
+ border-right: solid 1px white;
+ text-align: center;
+ padding: 5px;
+}
 
-.Java {
- font-size: 25px;
- padding: 10px;
+nav ul li:hover {
+ background-color: yellowgreen;
+}
+
+article {
+ background-color: white;
+ width: 600px;
+ height: 500px;
+ margin-left: 480px;
+}
+
+article h3 {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 30px;
+ font-weight: bold;
+ padding: 20px;
+ color: purple;
+ text-align: center;
+}
+
+article h4 {
+ color: #0A18BF;
+ font-size: 23px;
+ font-weight: bolder;
+}
+
+.frame {
+ color: red;
+ margin: 10px 0 20px 0;
+ padding: 0 0;
 }
 
 .line {
- align-items: center;
- margin-left: 30%;
- width: 600px;
+ width: 300px;
+ margin: 20px auto;
+ background-color: #7F1F9C;
+ height: 2px;
 }
 
-section {
- color: rgb(238, 238, 204);
+div {
+ padding: 5px;
+ margin: 2px;
+ font-size: 19px;
 }
-
- .frame {
-  color: red;
-  padding: 2%;
- }
