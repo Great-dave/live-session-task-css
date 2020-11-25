@@ -1,6 +1,7 @@
 * {
  margin: 0;
  padding: 0;
+ box-sizing: border-box;
 }
 
 body {
@@ -9,7 +10,6 @@ body {
 
 header h1 {
  font-family: Arial, Helvetica, sans-serif;
- font-weight: bolder;
  text-align: center;
  color: #bae686;
  background-color: #3B6838;
@@ -26,6 +26,11 @@ nav ul {
  list-style: none;
 }
 
+a {
+ color: #fff;
+ text-decoration: none;
+}
+
 nav ul li {
  border-right: solid 1px white;
  text-align: center;
@@ -38,9 +43,10 @@ nav ul li:hover {
 
 article {
  background-color: white;
- width: 600px;
- height: 500px;
- margin-left: 480px;
+ max-width: 600px;
+ width: 100%;
+ min-height: 500px;
+ margin: 0 auto;
 }
 
 article h3 {
@@ -55,20 +61,21 @@ article h3 {
 article h4 {
  color: #0A18BF;
  font-size: 23px;
- font-weight: bolder;
+ border-bottom: solid 1px rgb(59, 59, 59);
+}
+
+section {
+ text-align: justify;
+ padding: .5em;
+ line-height: 1.2em;
 }
 
 .frame {
  color: red;
+ font-weight: bold;
+ text-align: justify;
  margin: 10px 0 20px 0;
  padding: 0 0;
-}
-
-.line {
- width: 300px;
- margin: 20px auto;
- background-color: #7F1F9C;
- height: 2px;
 }
 
 div {
